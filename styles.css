@@ -1,0 +1,96 @@
+body {
+	background-image: url('Lookism_fond.png');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	margin:50px 170px 150px 170px;
+	font-family: "Poppins", sans-serif;
+	color: whitesmoke;
+	
+}
+
+figure 
+{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+  	
+  
+}
+
+.logo
+{
+	width:150px;
+	float:left;
+
+}
+a:visited 
+{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+a:link
+{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+a
+{
+	color: whitesmoke;
+	display: inline-block;
+}
+
+.headd{
+
+	text-align: center;
+	font-weight: bold;
+}
+
+.titre{
+	font-size:20px;
+	font-weight: bold;
+
+}
+
+.categorie
+{
+	text-align: center;
+	font-weight: bold;
+	font-size:20px;
+}
+
+#ul_liste li img {
+	border-style: solid;
+	
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 220px;
+
+}
+
+#ul_liste li
+{
+
+	list-style-type:none; 
+    list-style-position:inside;
+    display:inline-block;
+    width:120px;
+    padding:31px;
+    text-align:center;
+    vertical-align:top;
+}
+
+#ul_liste li span 
+{ 
+        font-size:20px;
+        color:whitesmoke;
+        font-weight: bold;
+}
